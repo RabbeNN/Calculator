@@ -309,7 +309,7 @@ namespace Calculator
                     break;
             }
         }
-        //This is the reset i use to reset before adding numbers.
+        //This is the reset i use to reset before adding numbers. 
         private void reset()
         {
             num1 = 0;
