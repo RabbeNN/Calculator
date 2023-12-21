@@ -294,16 +294,15 @@ namespace Calculator
                     break;
                 case '/':
                     ans = num1 / float.Parse(textBox1.Text);
-                    textBox1.Clear();
                     if (ans.ToString() == "\u221E")
                        textBox1.Text = textBox1.Text + "Ogiltlig inmatning";
                     else
                     {
                         lista.Add(num1 + "/" + float.Parse(textBox1.Text) + "=" + ans);
-                        textBox1.Text = ans.ToString();
                     }
-                    
-                    
+                    textBox1.Clear();
+                    textBox1.Text = ans.ToString();
+
                     break;
                 default:
                     break;
