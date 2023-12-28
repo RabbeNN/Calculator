@@ -26,7 +26,7 @@ namespace Calculator
     public partial class Form1 : Form
     {
         public Form1()
-            //Välkomnar till kalkylatorn
+            //Welcoming the user to the calculator.
         {
             InitializeComponent();
             textBox2.Text = "Välkommen till kalkylatorn";
@@ -308,6 +308,9 @@ namespace Calculator
                     break;
             }
         }
+
+       
+
         //This is the reset i use to reset before adding numbers.
         private void reset()
         {
