@@ -26,7 +26,7 @@ namespace Calculator
     public partial class Form1 : Form
     {
         public Form1()
-            //Welcoming the user to the calculator.
+            //Welcoming the user to the calculator..
         {
             InitializeComponent();
             textBox2.Text = "Välkommen till kalkylatorn";
