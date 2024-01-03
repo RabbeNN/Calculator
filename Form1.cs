@@ -51,7 +51,7 @@ namespace Calculator
             {
                 textBox1.Text = textBox1.Text + 1;
             }
-        }
+        } 
 
         private void button2_Click(object sender, EventArgs e)
         {
